@@ -1,0 +1,17 @@
+/* Estilos para o componente de footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #35424a; /* Cor de fundo desejada */
+  color: #ffffff; /* Cor do texto */
+  height: 25px; /* Altura desejada da faixa */
+  text-align: center; /* Alinhamento do texto */
+  display: flex; /* Usado para centralizar verticalmente o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+.footer_text{
+    margin-left: 10px; /* Margem esquerda do texto */
+}

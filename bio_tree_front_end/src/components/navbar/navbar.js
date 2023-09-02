@@ -4,14 +4,14 @@ import './navbar.css';
 function NavBar() {
   return (
     <nav className="navbar">
+
       <a href="#" className="navbar-brand">
-        <div className="logo">
-          BioTree
-        </div>
+        BioTree
       </a>
+
       <ul className="nav-links">
         <li className="nav-item">
-          <a href="#" className="nav-link">DataBaseAccess</a>
+          <a href="#" className="nav-link">DBAccess</a>
         </li>
         <li className="nav-item">
           <a href="#" className="nav-link">Tree</a>
@@ -19,7 +19,11 @@ function NavBar() {
         <li className="nav-item">
           <a href="#" className="nav-link">About</a>
         </li>
+        <li className="nav-item">
+          <a href="#" className="nav-link">Sair</a>
+        </li>
       </ul>
+
     </nav>
   );
 }
