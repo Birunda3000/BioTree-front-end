@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
+import SearchBar from './components/search_bar/search_bar';
 
 const App = () => {
-  let message = 'Hello World';
   return (
     <>
       <Navbar />
+      <main className='main'>
+        <SearchBar />
+      </main>
       <Footer />
     </>
   )

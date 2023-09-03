@@ -2,27 +2,48 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #28a745;
+    height: 5%;
+    width: 100%;
   }
   .navbar:hover {
     color: #bbf89e;
   }
   
   .navbar-brand {
+    margin-left: 10px;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
     color: #fff;
   }
-  .navbar-brand:hover {
-    color: #b0df9a;
+  .navbar-brand::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  .navbar-brand:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .navbar-brand::before {
+    content: " ";
+    height: 100%;
+    max-width: 108px;
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #031302;
+    z-index: -1;
+    transition: transform .3s ease;
   }
   
   .nav-links {
     list-style: none;
     display: flex;
+    justify-content: center;
+    width: 100%;
     gap: 20px;
   }
   
