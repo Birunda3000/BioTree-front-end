@@ -1,0 +1,18 @@
+.taxon-card{
+    margin: 10px;
+    display: flex;
+}
+
+.taxon-card-header{
+    gap: 3px;
+}
+
+.taxon-name{
+    color: #fff;
+    font-size: big;
+}
+
+.taxon-commom-name{
+    color: grey; 
+    font-size: small;
+}

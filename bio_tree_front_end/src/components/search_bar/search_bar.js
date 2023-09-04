@@ -8,8 +8,9 @@ function SearchBar() {
                 <input className="search-text" type="text" placeholder="Search..">
                 </input>
                 <select className="search-select">
-                    <option value="name">Species</option>
-                    <option value="id">Gender</option>
+                    <option value="Subespecie">Subespecie</option>
+                    <option value="Species">Species</option>
+                    <option value="Gender">Gender</option>
                 </select>
                 <button className="search-button"
                 type="submit">🔍︎</button>

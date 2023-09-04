@@ -1,10 +1,12 @@
 /* navbar.css */
 
 .navbar {
+    position: relative;
     display: flex;
     align-items: center;
     background-color: #28a745;
     height: 5%;
+    min-height: 30px;
     width: 100%;
   }
   .navbar:hover {
@@ -18,26 +20,6 @@
     font-weight: bold;
     color: #fff;
   }
-  .navbar-brand::before {
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  .navbar-brand:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  .navbar-brand::before {
-    content: " ";
-    height: 100%;
-    max-width: 108px;
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: #031302;
-    z-index: -1;
-    transition: transform .3s ease;
-  }
   
   .nav-links {
     list-style: none;
@@ -49,15 +31,19 @@
   
   .nav-item {
     margin: 0;
+    /* color: #ffffff80; */
+
   }
   
   .nav-link {
+    opacity: 0.5;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
+    transition: .1s;
   }
   .nav-link:hover {
-    color: #0c1f03;
+    opacity: 1;
   }
   
   
