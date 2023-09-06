@@ -1,6 +1,7 @@
 .taxon-card{
     margin: 10px;
     display: flex;
+    flex-direction: column;
 }
 
 .taxon-card-header{
@@ -15,4 +16,27 @@
 .taxon-commom-name{
     color: grey; 
     font-size: small;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.taxon-card-body{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.taxon-card-image{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.taxon-card-description{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
 }

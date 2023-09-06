@@ -5,7 +5,7 @@ function SearchBar() {
     return (
         <>
             <div className="search-bar">
-                <input className="search-text" type="text" placeholder="Search..">
+                <input className="search-text" type="text" placeholder="Search...">
                 </input>
                 <select className="search-select">
                     <option value="Subespecie">Subespecie</option>
@@ -13,7 +13,7 @@ function SearchBar() {
                     <option value="Gender">Gender</option>
                 </select>
                 <button className="search-button"
-                type="submit">🔍︎</button>
+                    type="submit">🔍︎</button>
             </div>
         </>
     )
