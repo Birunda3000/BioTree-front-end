@@ -1,0 +1,47 @@
+.search-bar {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+    margin: 20px 0px 0px 10px;
+    max-width: 60%;
+    min-width: 370px;
+    height: 30px;
+  }
+  
+  /* Remove the fixed width from .search-text */
+  .search-text {
+    border: unset;
+    height: 100%;
+    flex-grow: 1; /* This makes the input grow and take up remaining space */
+    padding-left: 12px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  /* Remove the fixed width from .search-select */
+  .search-select {
+    border: unset;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  /* Remove the fixed width from .search-button */
+  .search-button {
+    border: unset;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #757575;
+    cursor: pointer;
+    font-weight: bold;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .search-button:active {
+    color: #212121;
+  }

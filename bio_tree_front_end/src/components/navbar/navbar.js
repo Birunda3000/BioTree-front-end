@@ -11,6 +11,9 @@ function NavBar() {
 
       <ul className="nav-links">
         <li className="nav-item">
+          <a href="#" className="nav-link">Welcome Birunda</a>
+        </li>
+        <li className="nav-item">
           <a href="#" className="nav-link">DBAccess</a>
         </li>
         <li className="nav-item">

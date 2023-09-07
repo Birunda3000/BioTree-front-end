@@ -12,6 +12,12 @@
   align-items: center; /* Centraliza verticalmente o conteúdo */
 }
 
-.footer_text{
-    margin-left: 10px; /* Margem esquerda do texto */
+.footer-img{
+  height: 20px; /* Altura da imagem */
+  margin-left: 5px; /* Margem direita da imagem */
 }
+
+.footer-text{
+    margin-left: 5px; /* Margem esquerda do texto */
+}
+
