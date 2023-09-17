@@ -45,3 +45,18 @@
   .search-button:active {
     color: #212121;
   }
+
+  .add-button{
+    background-color: rgb(37, 82, 16);
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-add-button{
+    display: flex;
+}
