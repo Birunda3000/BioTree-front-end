@@ -2,6 +2,7 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+    font-family: BlinkMacSystemFont;
 }
 
 .taxon-card-header{
@@ -20,23 +21,41 @@
     opacity: 0.7;
 }
 
+.taxon-type{
+    color: grey; 
+    font-size: small;
+    margin-left: 10px;
+}
+
 .taxon-card-body{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     margin-top: 10px;
 }
 
 .taxon-card-image{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     color: white;
 }
 
-.taxon-card-description{
+.taxon-text-container{
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 14px;
+}
+
+.taxon-tag-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.taxon-tag{
+    margin-left: 3px;
+    background-color: dimgrey;
+    padding: 2px;
+    border-radius: 5px;
 }
