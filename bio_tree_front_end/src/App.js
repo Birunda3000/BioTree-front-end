@@ -12,6 +12,8 @@ const App = () => {
       <main className='main'>
         <SearchBar />
         <TaxonCard />
+        <TaxonCard />
+        <TaxonCard />
       </main>
       <Footer />
     </>

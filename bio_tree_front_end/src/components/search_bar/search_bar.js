@@ -23,7 +23,7 @@ function SearchBar() {
                     <button className="search-button"
                         type="submit">🔍︎</button>
                 </div>
-                <a className="add-button"><b>+</b></a>
+                <a className="add-button"><b>+</b>Add</a>
             </div>
         </>
     )
