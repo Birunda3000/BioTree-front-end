@@ -1,6 +1,6 @@
 import React from "react";
-import "./taxon_card.css";
 import placeholderImage from "../../assets/placeholder-image.png";
+import "./taxon_card.css";
 
 function TaxonCard() {
     return (
@@ -11,19 +11,19 @@ function TaxonCard() {
                     <span className="taxon-commom-name">Humano</span>
                 </div>
                 <span className="taxon-type">Espécie</span>
-                
+
                 <div className="taxon-card-body">
-                    
-                    <img className="taxon-card-image" src={placeholderImage} alt="placeholder-image"/>
-                 
+
+                    <img className="taxon-card-image" src={placeholderImage} alt="placeholder-image" />
+
                     <div className="taxon-text-container">
 
                         <div className="info-text teste">
                             <p><b>Origin: </b>8000 anos atras</p>
-                                <div>
-                                    <a className="update-button">✎ Delete</a>
-                                    <a className="delete-button">🗑 Update</a>
-                                </div>
+                            <div>
+                                <a className="update-button">✎ Update</a>
+                                <a className="delete-button">🗑 Delete</a>
+                            </div>
                         </div>
                         <p className="info-text"><b>Extintion: </b>80 anos atras</p>
                         <p className="taxon-card-description">
@@ -34,7 +34,7 @@ function TaxonCard() {
                             Diuretics paradis num copo é motivis de denguis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Casamentiss faiz malandris se pirulitá.
                             A ordem dos tratores não altera o pão duris. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
                         </p>
-                        
+
                         <ul className="taxon-tag-list">
                             <li className="taxon-tag"> <a href="https://www.google.com">Social</a> </li>
                             <li className="taxon-tag"> <a href="https://www.google.com">Carnivoro</a> </li>
@@ -43,7 +43,6 @@ function TaxonCard() {
                     </div>
                 </div>
             </div>
-            <hr className="taxon-card-separator"/>
         </>
     )
 }
