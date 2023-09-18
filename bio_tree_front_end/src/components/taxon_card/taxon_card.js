@@ -10,7 +10,7 @@ function TaxonCard() {
                     <span className="taxon-name">Homo Sapiens Sapiens</span>
                     <span className="taxon-commom-name">Humano</span>
                 </div>
-                <span className="taxon-type">Subespécie</span>
+                <span className="taxon-type">Subespecies</span>
 
                 <div className="taxon-card-body">
 
@@ -19,20 +19,15 @@ function TaxonCard() {
                     <div className="taxon-text-container">
 
                         <div className="info-text teste">
-                            <p><b>Origin: </b>200 000 anos atras</p>
+                            <p><b>Origin: </b>200 000 years ago</p>
                             <div>
                                 <a className="update-button">✎ Update</a>
                                 <a className="delete-button">🗑 Delete</a>
                             </div>
                         </div>
-                        <p className="info-text"><b>Extintion: </b>Ainda vivo</p>
-                        <p className="taxon-card-description">
-                            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Atirei o pau no gatis, per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então bota uma pinga aí cumpadi!
-                            Diuretics paradis num copo é motivis de denguis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Casamentiss faiz malandris se pirulitá.
-                            A ordem dos tratores não altera o pão duris. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
-                            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Atirei o pau no gatis, per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então bota uma pinga aí cumpadi!
-                            Diuretics paradis num copo é motivis de denguis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Casamentiss faiz malandris se pirulitá.
-                            A ordem dos tratores não altera o pão duris. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+                        <p className="info-text"><b>Extintion: </b>Alive</p>
+                        <p className="taxon-card-description"> The Homo sapiens sapiens, often referred to as the "modern human," is the dominant species on planet Earth. Characterized by a unique ability for abstract thinking, complex communication, and advanced technology, Homo sapiens sapiens stands out among all other life forms. Its remarkable evolution over hundreds of thousands of years has allowed for the development of complex societies, diverse cultures, and an extraordinary capacity to adapt to different environments. Possessing a highly developed brain, this species has explored the frontiers of knowledge and creativity, leaving a profound impact on the planet and their own lives.
+    In addition to its remarkable intelligence, Homo sapiens sapiens is characterized by a variety of distinct physical features, including an upright posture, dexterous hands with opposable thumbs, and a proportionally large brain relative to body size. These features have enabled humans to develop complex tools, master agriculture and animal domestication, and create highly organized societies. The ability to create, learn, adapt, and cooperate has made Homo sapiens sapiens the most influential species in the history of Earth, shaping the natural world and building civilizations that span from the earliest villages to today's global metropolises.
                         </p>
 
                         <ul className="taxon-tag-list">
