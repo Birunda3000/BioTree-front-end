@@ -25,6 +25,9 @@
     height: 100%;
     cursor: pointer;
   }
+  .search-select:hover {
+    background-color: #e0e0e0;
+  }
   
   /* Remove the fixed width from .search-button */
   .search-button {
@@ -37,13 +40,18 @@
     color: #757575;
     cursor: pointer;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
   }
-  
+  .search-button:hover {
+    background-color: #e0e0e0;
+  }
   .search-button:active {
     color: #212121;
+    background-color: #e0e0e0;
   }
 
   .add-button{
