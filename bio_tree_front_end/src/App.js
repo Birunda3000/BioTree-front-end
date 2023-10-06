@@ -4,6 +4,7 @@ import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import SearchBar from './components/search_bar/search_bar';
 import TaxonCard from './components/taxon_card/taxon_card';
+//import Home from './components/home/home';
 
 const App = () => {
   return (
@@ -12,8 +13,7 @@ const App = () => {
       <main className='main'>
         <SearchBar />
         <TaxonCard />
-        <TaxonCard />
-        <TaxonCard />
+
       </main>
       <Footer />
     </>

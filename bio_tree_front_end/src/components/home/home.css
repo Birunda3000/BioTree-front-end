@@ -1,0 +1,28 @@
+/* home.css */
+
+/* Estilo para o container da página */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilo para o carrossel */
+  .carousel {
+    max-width: 800px; /* A largura máxima do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+  }
+  
+  /* Estilo para as imagens dentro do carrossel */
+  .carousel .carousel-item img {
+    max-height: 400px; /* Altura máxima das imagens no carrossel */
+    object-fit: cover; /* Redimensiona as imagens para preencher o espaço disponível */
+  }
+  
+  /* Estilo para as legendas do carrossel */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para as legendas */
+    color: white; /* Cor do texto das legendas */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno das legendas */
+  }
+  
