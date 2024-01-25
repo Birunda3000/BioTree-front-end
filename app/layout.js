@@ -24,19 +24,17 @@ export default function RootLayout({ children }) {
         <style>{inter.styles}</style>
       </head>
 
-      <body className={inter.className+" bg-red-500"}>
+      <body className={inter.className}>
         <header>
           <NavBar />
         </header>
         
         <main>
           {children}
-          
           <Image
             src={under_construction}
             alt="under_construction"
           />
-        
         </main>
 
         <footer>
