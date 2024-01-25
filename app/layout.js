@@ -4,6 +4,7 @@ import Image from 'next/image';
 import under_construction from "../assets/under_construction.png";
 import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import favicon from "../assets/favicon.ico";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" href={favicon}/>
         <style>{inter.styles}</style>
       </head>
 
@@ -31,10 +32,7 @@ export default function RootLayout({ children }) {
         
         <main>
           {children}
-          <Image
-            src={under_construction}
-            alt="under_construction"
-          />
+          <Image src={under_construction} alt="under_construction"/>
         </main>
 
         <footer>

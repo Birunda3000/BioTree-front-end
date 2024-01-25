@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #28a745;
+    background-color: #0a3d16;
     height: 5%;
     min-height: 45px;
     width: 100%;
@@ -14,9 +14,10 @@
     margin-left: 10px;
     font-size: 24px;
     color: #fff;
+    opacity: 0.8;
   }
   .navbar-brand:hover {
-    color: rgb(25, 54, 3);
+    opacity: 1;
   }
   
   .nav-links {

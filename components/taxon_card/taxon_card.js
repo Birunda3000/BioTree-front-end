@@ -31,9 +31,9 @@ function TaxonCard() {
                         </p>
 
                         <ul className="taxon-tag-list">
-                            <li className="taxon-tag"> <a href="https://www.google.com">Social</a> </li>
-                            <li className="taxon-tag"> <a href="https://www.google.com">Onivoro</a> </li>
-                            <li className="taxon-tag"> <a href="https://www.google.com">Bipede</a> </li>
+                            <li className="taxon-tag"> <a href="https://pt.wikipedia.org/wiki/Animal_social">Social</a> </li>
+                            <li className="taxon-tag"> <a href="https://pt.wikipedia.org/wiki/Omn%C3%ADvoro">Omnivore</a> </li>
+                            <li className="taxon-tag"> <a href="https://pt.wikipedia.org/wiki/Bipedismo">Biped</a> </li>
                         </ul>
                     </div>
                 </div>
